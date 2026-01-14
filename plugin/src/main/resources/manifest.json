@@ -1,0 +1,13 @@
+{
+  "Group": "Bletzzi",
+  "Name": "Bletale",
+  "Version": "1.0.0",
+  "Main": "com.bletzzi.bletale.plugin.BletalePlugin",
+  "Authors": [
+    {
+      "Name": "Bletzzi",
+      "Website": "https://bletzzi.com/"
+    }
+  ],
+  "Website": "https://github.com/BletzziDev/BleTale"
+}
