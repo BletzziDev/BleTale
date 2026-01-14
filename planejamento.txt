@@ -1,0 +1,8 @@
+Pipeline do comando:
+
+[Command]
+ |---> Context -> Abstrato com métodos úteis porém contendo o handle do context nativo
+ |
+ |---> [NativeCommandHandler]
+ |-------> Handler nativo que puxa o metodo de handle do CommandHandler e ja executa o comando no hytale
+ |-------> Quando for chamar o CommandHandler cria o Context abstrato passando o context nativo
